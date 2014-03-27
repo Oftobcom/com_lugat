@@ -30,7 +30,6 @@ if (isset($_GET['SearchWord'])) {
 	}
 	else {
 		$string = "The word is not found. Sorry!";
-		//NotFoundWord($t,"tj2en");
 	}
 }
 
