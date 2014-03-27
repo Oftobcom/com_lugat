@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_LUGAT_FORM_VIEW_DEFAULT_TITLE">
+		<message>COM_LUGAT_FORM_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_lugat/models/fields"
+	>
+		<fieldset name="request">
+			<field
+				name="dic"
+				type="list"
+				label="Dictionary"
+				description="Dictionary"
+			>
+				<option value="ru2tj">ru2tj</option>
+				<option value="tj2ru">tj2ru</option>
+				<option value="tj2en">tj2en</option>
+				<option value="en2tj">en2tj</option>
+				<option value="ru2uz">ru2uz</option>
+            </field>
+		</fieldset>
+	</fields>
+</metadata>

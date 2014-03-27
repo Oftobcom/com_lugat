@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	addrulepath="/administrator/components/com_lugat/models/rules"
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="term"
+			type="text"
+			label="COM_LUGAT_TERM_FIELD_TERM_LABEL"
+			description="COM_LUGAT_TERM_FIELD_TERM_DESC"
+			size="25"
+			class="inputbox validate-term"
+			validate="term"
+			required="true"
+			default=""
+		/>
+		<field
+			name="trans"
+			type="textarea"
+			label="COM_LUGAT_TERM_FIELD_TRANSLATION_LABEL"
+			description="COM_LUGAT_TERM_FIELD_TRANSLATION_DESC"
+			required="true"
+			default=""
+			rows="10"
+		/>
+	</fieldset>
+</form>
